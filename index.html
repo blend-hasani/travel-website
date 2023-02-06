@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js" defer></script>
     <title>Korabi Tours</title>
 </head>
 <body>
 
     
-    <div class="navigation">
+    <!-- <div class="navigation">
         
         <strong>Korabi Tours</strong>
 
@@ -21,16 +23,41 @@
             <li>Rreth nesh</li>
             <li>Kontakti</li>
         </ul>
-       
     </div>
 
-            
+             -->
 
-            <div class="destinacionet-h1">
-                <h1>Destinacionet</h1> 
+             <nav class="navbar">
+                <div class="brand-title">Korabi Tours</div>
+                <a href="#" class="toggle-button">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </a>
+                <div class="navbar-links">
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#destinacionet">Destinacionet</a></li>
+                    <li><a href="#orari">Orari</a></li>
+                    <li><a href="#rrethnesh">Rreth nesh</a></li>
+                    <li><a href="#kontakti">Kontakti</a></li>
+                  </ul>
+                </div>
+              </nav>
+
+
+              <div class="banner">
+                    <h1  id="bannertext" style="align-self: center;">Partneri juaj per komoditet</h1>
+                  </div>
+              
+
+
+
+            <div class="destinacionet-h1 ">
+                <h1 id="destinacionet">Destinacionet</h1> 
             </div>           
 
-            <div class="destinacionet">
+            <div class="destinacionet reveal">
 
                    
                         <div class="dest">
@@ -44,10 +71,10 @@
                         
             </div>
            
-            <div class="orari">
-                <h1>Orari i nisjeve</h1>
+            <div class="orari reveal">
+                <h1 id="orari">Orari i nisjeve</h1>
             </div>
-        <div class="tabela">
+        <div class="tabela reveal">
 
             <table>
                 <tr id="header">
@@ -59,43 +86,43 @@
                 <tr>
                     <td>07:00</td>
                     <td>09:30 </td>
-                    <td>USA </td>
-                    <td>Male </td>
+                    <td>07:00 </td>
+                    <td>08:00 </td>
         
                 </tr>
                 <tr>
                     <td>11:45</td>
                     <td>11:00 </td>
-                    <td>USA </td>
-                    <td>Male </td>
+                    <td>08:45 </td>
+                    <td>09:00 </td>
         
                 </tr>
                 <tr>
                     <td>14:00 </td>
                     <td>13:30 </td>
-                    <td>USA </td>
-                    <td>Male </td>
+                    <td>09:45</td>
+                    <td>10:00 </td>
         
                 </tr>
                 <tr>
                     <td>16:30 </td>
                     <td>15:00 </td>
-                    <td>USA </td>
-                    <td>Male </td>
+                    <td>10:45 </td>
+                    <td>11:00 </td>
         
                 </tr>
                 <tr>
                     <td>18:00 </td>
                     <td>16:00 </td>
-                    <td>USA </td>
-                    <td>Male </td>
+                    <td>11:15 </td>
+                    <td>11:30 </td>
         
                 </tr>
                 <tr>
                     <td>19:00 </td>
-                    <td>---</td>
-                    <td>USA </td>
-                    <td>Male </td>
+                    <td>17:00</td>
+                    <td>13:30 </td>
+                    <td>14:00 </td>
         
                 </tr>
         
@@ -103,21 +130,95 @@
 
         </div>
 
-           <div class="about-us">
-            <h1>Rreth nesh</h1>
+           <div class="about-us reveal ">
+            <h1 id="rrethnesh">Rreth nesh</h1>
            </div>
-        <div class="rreth-nesh">
+        <div class="rreth-nesh reveal">
 
                 
-            <div class="rreth-nesh-foto">
-                <img width="100%" height="100%" src="images/water1.jpg" alt="">
+            <div class="rreth-nesh-foto reveal">
+                <img width="100%" height="100%" src="images/aboutus.jpg" alt="">
             </div>
             
 
-            <div class="rreth-nesh-tekst">
-                <h1>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, expedita veniam quibusdam fuga veritatis distinctio id non earum laboriosam! Amet! .</h1>
+            <div class="rreth-nesh-tekst reveal">
+                <h1>Korabi tours është kompani turistike e cila ofron transport brenda dhe jashtë vendit gjithashtu dhe transport të organizuar.</h1>
             </div>
-</div>
+                <div>
+
+            </div>
             
+            <div class="container reveal">
+                <div class="contact-box">
+                    <div class="left"></div>
+                    <div class="right">
+                        <h2>Na kontaktoni</h2>
+                        <input type="text" class="field" placeholder="Emri">
+                        <input type="text" class="field" placeholder="Email">
+                        <input type="text" class="field" placeholder="Numri i telefonit">
+                        <textarea placeholder="Mesazhi" class="field"></textarea>
+                        <button class="btn">Dergo</button>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer-distributed">
+
+                <div class="footer-left">
+                    <h3 id="kontakti">Korabi<span>Tours</span></h3>
+                    <br><br><br>
+        
+                    <p class="footer-company-name">Copyright © 2023 <strong>KorabiTours</strong> Të gjitha të drejtat e rezervuara</p>
+                </div>
+        
+                <div class="footer-center">
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>Malishevë</span>
+                            </p>
+                    </div>
+        
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>+38346886192</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="mailto:sagar00001.co@gmail.com">korabitours@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <p class="footer-company-about">
+                        <span>Rreth kompanis</span>
+                        <strong>Korabi Tours</strong> eshte kompani e cila ofron udhetime brenda dhe jashtë vendit , gjithashtu dhe transport te organizuar.
+                    </p>
+                    <div class="footer-icons">
+                        <a href="https://www.facebook.com/people/Korabi-Tours/100066918255792/" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/korabi.tours/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+            </footer>
+
+            <script type="text/javascript">
+                window.addEventListener('scroll', reveal);
+            
+                function reveal(){
+                  var reveals = document.querySelectorAll('.reveal');
+            
+                  for(var i = 0; i < reveals.length; i++){
+            
+                    var windowheight = window.innerHeight;
+                    var revealtop = reveals[i].getBoundingClientRect().top;
+                    var revealpoint = 150;
+            
+                    if(revealtop < windowheight - revealpoint){
+                      reveals[i].classList.add('active');
+                    }
+                    else{
+                      reveals[i].classList.remove('active');
+                    }
+                  }
+                }
+                </script>
 </body>
 </html>
