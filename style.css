@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+
+
+
 html{
    scroll-behavior: smooth;
 }
@@ -30,7 +33,7 @@ html{
    font-family: 'Roboto Slab', serif;
    font-size: 40px;
    text-align: center;
-	  	  overflow-x: hidden;
+	  overflow-x: hidden;
 
   }
 
@@ -203,9 +206,9 @@ tr {
 
 th,
 td {
-   padding: 12px;
    text-align: left;
    border-bottom: 1px solid #ddd;
+   padding : 5px;
 }
 
 #header {
@@ -299,7 +302,7 @@ body{
    }
 
    .rreth-nesh-foto{
-      width: 350px;
+      width: 310px;
       height: 50vh;
       margin-top: 30px;
    }
@@ -350,12 +353,12 @@ body{
 }
 
 .right{
-	padding: 25px 40px;
+	
 }
 
 h2{
 	position: relative;
-	padding: 0 0 10px;
+	
 	margin-bottom: 10px;
 }
 
@@ -372,11 +375,11 @@ h2:after{
 }
 
 .field{
-	width: 100%;
+	width: 90%;
 	border: 2px solid rgba(0, 0, 0, 0);
 	outline: none;
 	background-color: rgba(230, 230, 230, 0.6);
-	padding: 0.5rem 1rem;
+	
 	font-size: 1.1rem;
 	margin-bottom: 22px;
 	transition: .3s;
@@ -438,7 +441,7 @@ footer {
    width: 100%;
    text-align: left;
    font: bold 16px sans-serif;
-   padding: 50px 50px 60px 50px;
+   
    margin-top: 80px;
 }
 
@@ -468,7 +471,7 @@ footer {
 
 .footer-distributed .footer-links {
    color: #ffffff;
-   margin: 20px 0 12px;
+   
 }
 
 .footer-distributed .footer-links a {
